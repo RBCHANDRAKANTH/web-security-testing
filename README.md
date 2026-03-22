@@ -1,23 +1,32 @@
-# 🛡️ Web Application Security Testing
+# 🛡️ Web Application Security Testing & Analysis
 
 ## 📌 Overview
-Performed security testing on DVWA and OWASP Juice Shop.
+This project focuses on identifying web application vulnerabilities using both manual testing tools and basic automation scripts.
 
-## 🔍 Vulnerabilities Found
+## 🛠️ Tools Used (Manual Testing)
+- Burp Suite (for intercepting and modifying requests)
+- OWASP ZAP (for automated scanning)
+- DVWA (practice environment)
+- OWASP Juice Shop
+
+## 💻 Automation Script
+A simple Python script was developed to:
+- Check website availability
+- Analyze basic security headers
+
+## 🔍 Vulnerabilities Identified
 - SQL Injection
 - Cross-Site Scripting (XSS)
 
-## 🛠️ Tools Used
-- Burp Suite
-- OWASP ZAP
-
 ## 🧪 Testing Approach
-- Manual testing using proxy tools
-- Payload injection
-- Response analysis
+- Intercepted requests using Burp Suite
+- Injected payloads for testing vulnerabilities
+- Analyzed server responses
+- Used Python for basic automated checks
 
 ## 📊 Outcome
-Identified vulnerabilities and learned mitigation techniques.
+- Identified multiple vulnerabilities
+- Understood secure coding practices
 
-## ⚠️ Note
+## ⚠️ Disclaimer
 This project is for educational purposes only.
